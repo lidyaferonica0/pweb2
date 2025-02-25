@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TravelCo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="home.html">TravelCo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="indexlaprak2.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Explore.html">Explore</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="features container">
+        <h2 class="mb-4">Contact</h2>
+        <div class="underline mx-auto"></div>
+        <p class="lead mt-2">Feel free to reach out to us for any inquiries or support.</p>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt"></i> Bengkulu, Muara Bangkahulu</li>
+                    <li><i class="fas fa-envelope"></i> info@travelco.com</li>
+                    <li><i class="fas fa-phone"></i> (123) 19-0520-0502</li>
+                    <li><i class="fas fa-globe"></i> <a href="https://www.travelco.com" target="_blank">www.travelco.com</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <form action="#" class="contact-form" onsubmit="showMessage(event)">
+                    <input type="text" placeholder="Your Name" class="form-control mb-3" required>
+                    <input type="email" placeholder="Your Email" class="form-control mb-3" required>
+                    <textarea placeholder="Your Message" class="form-control mb-3" required></textarea>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <p class="message-sent" id="message-sent">Message Sent!</p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-primary text-white text-center py-3">
+        <p>© 2025 TravelCo</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/ldyfrnc" target="_blank" class="text-white mx-2">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/lidyaferonica0" target="_blank" class="text-white mx-2">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://youtube.com/@lidyaferonica5541" target="_blank" class="text-white mx-2">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+pPnh0zEAwg9I+GytoF6bTgfYk/uTvbPb9vFMo1zV2odt6dL+3k5W4v7gI5i4a"
+    crossorigin="anonymous">
+</script>
+</body>
+</html>
